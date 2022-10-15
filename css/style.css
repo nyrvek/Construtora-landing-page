@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root {
+  --cor1: #131214;
+  --cor2: #214355;
+  --cor3: #20add8;
+  --cor4: #20dbcc;
+  --cor5: #f8efcd;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+  box-sizing: border-box;
+  background-color: var(--cor2);
+  height: 100vh;
+}
+
+.header {
+  background-color: var(--cor3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  position: -webkit-sticky;
+  /* Necessário para funcionar no Safari */
+  top: 0;
+  z-index: 100000;
+  padding: 23px;
+  height: 82px;
+}
+
+.header img {
+  width: 100px;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  color:var(--cor1);
+  padding: 10px;
+  text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  padding: 24px 10px;
+  box-sizing: border-box;
+}
+
+.menu a:hover {
+  background-color: var(--cor4);
+}
+
+#imagem-pincipal img {
+  margin: 0px;
+  padding: 0;
+  height: 500px;
+  width: 1348.5px;
+  object-fit: cover;
+}
+#titulo_imagem {
+  margin: 0;
+  margin-top: -4px;
+  background-color: #131214;
+  padding: 15px;
+  text-align: center;
+}
+.titulo{
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  background-color: #131214;
+  padding: 15px;
+  font-family: "Silkscreen", cursive;
+  color: whitesmoke;
+}
+#titulo1{
+  margin-top: -5px;
+}
+.container-construcoes {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.constucao1 {
+  background-color:#2f4f4f;
+  display: flex;
+  align-items: center;
+  flex-direction:column-reverse;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Silkscreen", cursive;
+  color: whitesmoke;
+}
+.constucao1 img {
+  height: 300px;
+  width: 600px;
+  object-fit: cover;
+}
+article{
+  margin-top: 80px;
+}
