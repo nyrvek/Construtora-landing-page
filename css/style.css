@@ -121,18 +121,18 @@ article {
   margin-top: 80px;
 }
 
-/* Slideshow container */
+/* Slides container */
 .slideshow-container {
   position: relative;
   margin: auto;
 }
 .mySlides img {
-  height: 500px;
+  height: 750px;
   width: 1348.5px;
   object-fit: cover;
 }
 
-/* Fading animation */
+/* animação para troca de imagem */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -143,13 +143,10 @@ article {
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
+
 footer{
   display: flex;
-  margin-top:100px;
+  margin-top:50px;
   color: #ffffff;
   height: 200px;
   background-color: var(--cor6);
